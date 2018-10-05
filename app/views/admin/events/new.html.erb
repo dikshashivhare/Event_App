@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-md-8 offset-md-2">
+    <div class="card mt-5">
+      <h1 class="card-header">New Event</h1>
+      <div class="card-body">
+        <%= render 'form', event: @event %>
+        <%= link_to 'Back', admin_events_path %>
+      </div>
+    </div>
+  </div>
+</div>
